@@ -1,0 +1,33 @@
+body{
+    margin: 10px;
+    padding: 10px;
+}
+header{
+    background-color: grey;
+    height: 100px;
+
+}
+.container{
+    display: flex;
+    flex-direction: row;
+}
+.box1{
+    background-color: yellow;
+    flex: 1;
+    height: 300px;
+}
+.box2{
+    background-color: rgb(170, 169, 168);
+    flex: 2;
+    height: 300px;
+}
+.box{
+    flex-basis: 20%;
+}
+p{
+    text-align: center;
+}
+footer{
+    background-color: rgb(231, 127, 209);
+    height: 100px;
+}
